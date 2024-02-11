@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resort Celebrations</title>
+    <style>
+	*{ 
+      box-sizing:border-box;
+	  
+	
+     }
+	 .unordered_list {
+        list-style-type: none; 
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+     background: linear-gradient(to bottom, #001f3f, #004d99);
+		width:100%
+    }
+    .list_item{
+        float: left;
+		padding:0px ;
+    }
+    .list_item a, .dropbtn {
+        display: inline-block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+		width:150px;
+    }
+    .list_item a:hover, .dropdown:hover .dropbtn {
+        background-color: Beige;
+		color:#001f3f;
+    }
+    .dropdown-content {
+        display: none; 
+        position: absolute;
+        background-color: #001f3f;
+		color:white;
+		width:150px;
+    }
+    .dropdown-content a {
+        color: white;
+        padding: 12px 14px;
+        text-decoration: none;
+        display: block;
+        text-align: left;
+		width:150px;
+    }
+    .dropdown-content a:hover {
+        background-color: LightSkyBlue;
+        color: white ;
+		
+    }
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+        body {
+            
+            margin: 0;
+            padding: 0;
+            background-color: #f0f5ff; /* Lighter shade of navy blue */
+            color: #333;
+        }
+
+        header {
+            background-color: #001f3f; /* Navy Blue */
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        section {
+            padding: 20px;
+        }
+
+        h2 {
+            color: #001f3f; /* Navy Blue */
+        }
+
+        h3 {
+            color: #004080; /* Electric Blue */
+        }
+
+        p {
+            color: #555;
+			clear:both;
+        }
+
+        a {
+            color: #004080; /* Electric Blue */
+            text-decoration: none;
+        }
+
+       
+
+        img {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 20px; /* Added margin for better spacing between images and text */
+        }
+
+        .image {
+            height: 200px;
+width:400px;	
+border-radius:1em;
+float:left;
+clear:left;		
+        }
+
+        .contact-us {
+            margin-top: 10px;
+        }
+
+        .contact-info {
+            margin-top: 10px;
+        }
+
+        
+        footer {
+          background: linear-gradient(to bottom, #001f3f, #004d99); /* Navy Blue */
+            color: #fff;
+            text-align: center;
+            padding: 0px;
+           <!-- position: fixed;-->
+            bottom: 0;
+            width: 100%;
+        }
+		.nav{
+		top:2px;
+		position:fixed;
+		width:100%;}
+    </style>
+</head>
+
+<body>
+   <div class="nav">
+   <ul class="unordered_list">
+<h1 style="color: white;  background: linear-gradient(to bottom, #001f3f, #004d99); padding:20px; width:100% ; margin:0; top:0; text-align:center;">KALDAN  SAMUDRA  RESORT</h1>
+    <li class="list_item"><a href="home.html">Home</a></li>
+    <li class="list_item"><a href="aboutus.html">About Us</a></li>
+    <li class="list_item dropdown">
+        <a href="#" class="dropbtn">Facilities</a>
+        <div class="dropdown-content">
+            <a href="kitchen.html">Kitchen</a>
+            <a href="http://localhost/rooms.php">Rooms</a>
+            <a href="surroundings.html">Surroundings</a>
+        </div>
+    </li>
+	<li class="list_item"><a href="activities.html" >Activities</a></li>
+    <li class="list_item"><a href="celebrations.html"  >Celebrations</a></li>
+	<li class="list_item"><a href="visit_places.html" >Visit Places</a></li>
+	<li class="list_item"><a href="feedback.html" >Feedback</a></li>
+    <li class="list_item"><a href="announcements.html" >Announcements</a></li>
+	
+</ul>
+
+<h1 style="color: white; background: linear-gradient(to bottom, #001f3f, #004d99); padding:10px; padding-left:50px; margin:0px;width:100%; ">Celebrations</h1>
+</div>
+<div style="height:170px;"></div>
+   
+    <section >
+        <h2>Celebrations at Our Resort</h2>
+        <p>Make your special moments unforgettable by celebrating at our resort. Whether it's a wedding, anniversary, birthday, or any other occasion, we offer the perfect setting and services to make your celebration extraordinary.</p>
+
+        <h3>Festivals Celebrations</h3>
+        <img class="image" src="images/holi.jpg" alt="Water Sports" >
+
+        <p>Celebrate the magic of the season at our luxurious resort, where every moment becomes a cherished memory during festive celebrations. Immerse yourself in the joyous atmosphere as we deck the halls and create a haven for holiday merriment.</P>
+        <h3>Wedding Celebrations</h3>
+        <img class="image" src="images/wedding.jpg" alt="Wedding Celebrations">
+
+        <p>Celebrate the beginning of your journey together in a breathtaking setting. Our dedicated team will help you plan every detail of your dream wedding, ensuring a day filled with love and joy.</p>
+
+        <h3>Birthday Celebrations</h3>
+        <img class="image" src="images/birthday.jpg" alt="Birthday Celebrations">
+
+        <p>Host a memorable birthday celebration at our resort. Whether it's a fun-filled pool party or an elegant dinner, we have the perfect venues and services to make your birthday special.</p>
+
+        <h3>Other Events</h3>
+        <img class="image" src="images/other_activity.jpg" alt="Other Events">
+
+        <p>Our resort is ideal for various events, including corporate gatherings, conferences, and family reunions. Contact our events team to discuss your specific requirements and customize your event.</p>
+
+        <div class="contact-us">
+            <h3>Contact Us</h3>
+            <div class="contact-info">
+                <p>For inquiries and reservations, please contact our events team:</p>
+                <p>Phone: <a href="tel:+123456789">9192234567</a></p>
+                <p>Email: <a href="mailto:events@resort.com">events@resort.com</a></p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p style="color:white; padding:20px;">&copy; 2024 Kaldan Samudra Resort. All Rights Reserved.</p>
+    </footer>
+</body>
+
+</html>

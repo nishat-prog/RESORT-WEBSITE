@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resort Activities</title>
+    <style>
+	*{ 
+      box-sizing:border-box;
+     }
+	 .unordered_list {
+        list-style-type: none; 
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+     background: linear-gradient(to bottom, #001f3f, #004d99);
+		width:100%
+    }
+    .list_item{
+        float: left;
+		padding:0px ;
+    }
+    .list_item a, .dropbtn {
+        display: inline-block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+		width:150px;
+    }
+    .list_item a:hover, .dropdown:hover .dropbtn {
+        background-color: Beige;
+		color:#001f3f;
+    }
+    .dropdown-content {
+        display: none; 
+        position: absolute;
+        background-color: #001f3f;
+		color:white;
+		width:150px;
+    }
+    .dropdown-content a {
+        color: white;
+        padding: 12px 14px;
+        text-decoration: none;
+        display: block;
+        text-align: left;
+		width:150px;
+    }
+    .dropdown-content a:hover {
+        background-color: LightSkyBlue;
+        color: white ;
+		
+    }
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+        body {
+            
+            margin: 0;
+            padding: 0;
+            background-color: #f0f5ff; /* Lighter shade of navy blue */
+            color: #333;
+        }
+
+        header {
+            background-color: #001f3f; /* Navy Blue */
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        section {
+            padding: 20px;
+        }
+
+        h2 {
+            color: #001f3f; /* Navy Blue */
+        }
+
+        h3 {
+            color: #004080; /* Electric Blue */
+        }
+
+        p {
+            color: #555;
+        }
+
+        a {
+            color: #004080; /* Electric Blue */
+            text-decoration: none;
+        }
+
+       
+
+        img {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 20px; /* Added margin for better spacing between images and text */
+        }
+ .image {
+            height: 200px;
+width:400px;	
+border-radius:1em;
+	
+        }
+
+        .contact-us {
+            margin-top: 30px;
+        }
+
+        .contact-info {
+            margin-top: 15px;
+        }
+
+       
+        footer {
+          background: linear-gradient(to bottom, #001f3f, #004d99); /* Navy Blue */
+            color: #fff;
+            text-align: center;
+            padding: 0px;
+           <!-- position: fixed;-->
+            bottom: 0;
+            width: 100%;
+        }
+		.nav{
+		top:2px;
+		position:fixed;
+		width:100%;}
+    </style>
+</head>
+
+<body>
+<div class="nav">
+    <ul class="unordered_list">
+<h1 style="color: white;  background: linear-gradient(to bottom, #001f3f, #004d99); padding:20px; width:100% ; margin:0; top:0; text-align:center;">KALDAN  SAMUDRA  RESORT</h1>
+    <li class="list_item"><a href="home.html">Home</a></li>
+    <li class="list_item"><a href="aboutus.html">About Us</a></li>
+    <li class="list_item dropdown">
+        <a href="#" class="dropbtn">Facilities</a>
+        <div class="dropdown-content">
+            <a href="kitchen.html">Kitchen</a>
+            <a href="http://localhost/rooms.php">Rooms</a>
+            <a href="surroundings.html">Surroundings</a>
+        </div>
+    </li>
+	<li class="list_item"><a href="activities.html" >Activities</a></li>
+    <li class="list_item"><a href="celebrations.html"  >Celebrations</a></li>
+	<li class="list_item"><a href="visit_places.html" >Visit Places</a></li>
+	<li class="list_item"><a href="feedback.html" >Feedback</a></li>
+    <li class="list_item"><a href="announcements.html" >Announcements</a></li>
+	
+</ul>
+
+<h1 style="color: white; background: linear-gradient(to bottom, #001f3f, #004d99); padding:10px; padding-left:50px; margin:0px;width:100%; ">Activities</h1>
+</div><div style="height:170px;"></div>
+    <nav>
+        <!-- You can include a navigation menu here if needed -->
+    </nav>
+
+    <section>
+        <h2>Activities at Our Resort</h2>
+        <p>"Enhance your stay at RelaxoResorts with a diverse array of activities. Whether you prefer the serenity of our swimming pool, indulging in spa and wellness treatments, participating in sports and recreational activities, or exploring nearby attractions, our resort provides a wide range of options to cater to every taste. Immerse yourself in fitness classes, culinary workshops, nature walks, and various entertainment options. From thrilling adventures to relaxing moments, our resort ensures that your experience is filled with enjoyment and relaxation. 
+		Discover a world of possibilities and create lasting memories during your stay at RelaxoResorts."</p>
+
+        <h3>Pool Activities</h3>
+        <img class="image" src="images/spa.jpg" alt="Swimming Pool of Relaxoresort">
+
+        <p>"Dip into pure relaxation with our pool activities at RelaxoResorts. Whether it's a refreshing swim or water aerobics, our pool offers a cool retreat. Lounge by the water, soak up the sun, and enjoy moments of pure bliss."</p>
+
+        <h3>Gym Activities</h3>
+        <img class="image" src="images/resortgym.jpeg" alt="Resort gym">
+
+        <p>"Stay fit and active with our gym activities at RelaxoResorts. Whether it's cardio or strength training, our fitness center has you covered. Elevate your well-being during your stay with us."</p>
+
+        <h3>Outdoor Movie Nights:</h3>
+        <img class="image" src="images/movienight.jpg" alt="Outdoor movie night">
+
+		<p>"Relax under the stars with our Outdoor Movie Nights.Experience cinematic magic beneath the stars, creating unforgettable moments and a touch of nostalgia for everyone to enjoy."</p>
+        
+		<h3>Scuba-Diving</h3>
+        <img class="image" src="images/scuba.jpg" alt="Scuba Diving">
+
+        <p>"Dive into adventure with our scuba activity at RelaxoResorts. Explore the mesmerizing underwater world and witness the beauty of marine life. Whether you're a seasoned diver or a beginner, our scuba experiences promise an unforgettable aquatic adventure during your stay.".</p>
+		
+		<h3>Spa and Wellness Retreats</h3>
+        <img class="image" src="images/spa_activities.jpg" alt="Spa and Wellness Retreats">
+
+        <p>"Indulge in serenity with our Spa and Wellness Retreats at RelaxoResorts. Rejuvenate your mind and body with expert treatments, soothing massages, and tranquil surroundings. Elevate your well-being with our curated spa experiences, designed for ultimate relaxation and rejuvenation during your stay."</p>
+        
+		<h3>Live Entertainment</h3>
+        <img class="image" src="images/music.jpg" alt="Live Music Performances">
+
+        <p>"Experience vibrant nights with Live Entertainment at RelaxoResorts. Enjoy the rhythm of live music and an electric atmosphere that adds a touch of excitement to your evenings. Join us for memorable nights filled with entertainment, laughter, and a lively ambiance."</p>
+		
+
+
+		<div class="contact-us">
+            <h3>Contact Us</h3>
+            <div class="contact-info">
+                <p>For inquiries and reservations, please contact our events team:</p>
+                <p>Phone: <a href="tel:+123456789">9192234567</a></p>
+                <p>Email: <a href="mailto:events@resort.com">events@resort.com</a></p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p style="color:white; padding:20px;">&copy; 2024 Kaldan Samudra Resort. All Rights Reserved.</p>
+    </footer>
+</body>
+
+</html>

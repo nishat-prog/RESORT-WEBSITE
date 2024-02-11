@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resort Announcements</title>
+    <style>
+	*{ 
+      box-sizing:border-box;
+	  
+	
+     }
+	 .unordered_list {
+        list-style-type: none; 
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+     background: linear-gradient(to bottom, #001f3f, #004d99);
+		width:100%
+    }
+    .list_item{
+        float: left;
+		padding:0px ;
+    }
+    .list_item a, .dropbtn {
+        display: inline-block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+		width:150px;
+    }
+    .list_item a:hover, .dropdown:hover .dropbtn {
+        background-color: Beige;
+		color:#001f3f;
+    }
+    .dropdown-content {
+        display: none; 
+        position: absolute;
+        background-color: #001f3f;
+		color:white;
+		width:150px;
+    }
+    .dropdown-content a {
+        color: white;
+        padding: 12px 14px;
+        text-decoration: none;
+        display: block;
+        text-align: left;
+		width:150px;
+    }
+    .dropdown-content a:hover {
+        background-color: LightSkyBlue;
+        color: white ;
+		
+    }
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+        body {
+            
+            margin: 0;
+            padding: 0;
+            background-color: #f0f5ff; /* Lighter shade of navy blue */
+            color: #333;
+        }
+
+        header {
+            background-color: #001f3f; /* Navy Blue */
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        p {
+            color: #555;
+        }
+
+        section {
+            padding: 20px;
+            margin: auto;
+            max-width: 800px;
+        }
+
+        h2 {
+            color: #001f3f; /* Navy Blue */
+        }
+
+        ul {
+            padding: 0;
+            list-style: none;
+        }
+
+        .announcement {
+            background-color: #e6f7ff; /* Light Blue */
+            padding: 15px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+			 box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .announcement p {
+            margin: 0;
+        }
+
+        .announcement strong {
+            color: #004080; /* Electric Blue */
+        }
+
+        .announcement img {
+            width: 100%;
+            max-height: 200px;
+            object-fit: cover;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+
+        footer {
+          background: linear-gradient(to bottom, #001f3f, #004d99); /* Navy Blue */
+            color: #fff;
+            text-align: center;
+            padding: 0px;
+           <!-- position: fixed;-->
+            bottom: 0;
+            width: 100%;
+        }
+		.nav{
+		top:2px;
+		position:fixed;
+		width:100%;}
+    </style>
+</head>
+<div class="nav">
+<body>
+    <ul class="unordered_list">
+<h1 style="color: white;  background: linear-gradient(to bottom, #001f3f, #004d99); padding:20px; width:100% ; margin:0; top:0; text-align:center;">KALDAN  SAMUDRA  RESORT</h1>
+    <li class="list_item"><a href="home.html">Home</a></li>
+    <li class="list_item"><a href="aboutus.html">About Us</a></li>
+    <li class="list_item dropdown">
+        <a href="#" class="dropbtn">Facilities</a>
+        <div class="dropdown-content">
+            <a href="kitchen.html">Kitchen</a>
+            <a href="http://localhost/rooms.php">Rooms</a>
+            <a href="surroundings.html">Surroundings</a>
+        </div>
+    </li>
+	<li class="list_item"><a href="activities.html" >Activities</a></li>
+    <li class="list_item"><a href="celebrations.html"  >Celebrations</a></li>
+	<li class="list_item"><a href="visit_places.html" >Visit Places</a></li>
+	<li class="list_item"><a href="feedback.html" >Feedback</a></li>
+    <li class="list_item"><a href="announcements.html" >Announcements</a></li>
+	
+</ul>
+
+<h1 style="color: white; background: linear-gradient(to bottom, #001f3f, #004d99); padding:10px; padding-left:50px; margin:0px;width:100%; ">Announcements</h1>
+</div>
+    
+<div style="height:170px;"></div>
+    <section>
+        <h2>Latest Announcements</h2>
+
+        <ul>
+            <li class="announcement">
+                <p><strong>Special Promotion:</strong> Book your stay for the upcoming month and enjoy exclusive discounts on room rates and complimentary spa treatments. Limited availability, so reserve your spot now! 🌟</p>
+                <img src="images/rooms.jpg" alt="Special Promotion Image">
+            </li>
+
+            <li class="announcement">
+                <p><strong>New Dining Experience:</strong> Indulge in our newly launched dining menu featuring exquisite dishes crafted by our renowned chefs. Join us for a culinary journey like no other. 🍽</p>
+                <img src="images/dining.jpg" alt="New Dining Experience Image">
+            </li>
+
+            <li class="announcement">
+                <p><strong>Upcoming Events:</strong> Mark your calendars for exciting events, including live music nights, themed parties, and outdoor activities. Stay tuned for more details on our event calendar. 🎉</p>
+                <img src="images/party.jpg" alt="Upcoming Events Image">
+            </li>
+
+            <!-- Additional Announcements -->
+            <li class="announcement">
+                <p><strong>Spa Retreat Package:</strong> Treat yourself to a rejuvenating spa retreat package. Unwind with our signature treatments and enjoy the ultimate relaxation. 🌺</p>
+                <img src="images/spa.jpg" alt="Spa Retreat Package Image">
+            </li>
+
+            <li class="announcement">
+                <p><strong>Adventure Excursions:</strong> Explore the beauty of the surrounding landscape with our guided adventure excursions. From hiking to water sports, there's an adventure for everyone! 🏞</p>
+                <img src="images/advent.jpg" alt="Adventure Excursions Image">
+            </li>
+        </ul>
+		<div style="height:30px"></div>
+    </section>
+
+    <footer>
+        <p style="color:white; padding:20px;">&copy; 2024 Kaldan Samudra Resort. All Rights Reserved.</p>
+    </footer>
+</body>
+
+</html>
